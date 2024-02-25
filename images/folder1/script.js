@@ -3,6 +3,6 @@ const imageNames = ["SpringPattern3.png", "SpringPattern4.png", "SpringPattern6.
 
 imageNames.forEach(imageName => {
     const img = document.createElement('img');
-    img.src = imageName; 
+    img.src = "images/" + imageName; 
     imageContainer.appendChild(img); 
 });
