@@ -1,8 +1,8 @@
 const imageContainer = document.querySelector('.gallery-container');
-const imageNames = ["image1.jpg", "image2.jpg", /* ... add your 10 image names */];
+const imageNames = ["SpringPattern3", "SpringPattern4", "SpringPattern6", "SpringPattern8", "SpringPattern9", "SpringPattern10", "SpringPattern12", "SpringPattern14", "SpringPattern16", "SpringPattern21"/* ... add your 10 image names */];
 
 imageNames.forEach(imageName => {
     const img = document.createElement('img');
-    img.src = "images/" + imageName; 
+    img.src = imageName; 
     imageContainer.appendChild(img); 
 });
